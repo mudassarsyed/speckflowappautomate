@@ -21,14 +21,14 @@ namespace TestApplication.UiTests.Drivers
             _configurationDriver = configurationDriver;
             _testRunContext = testRunContext;
         }
-
+        
         public IWebDriver GetForBrowser(string browserId)
         {
             DesiredCapabilities caps = new DesiredCapabilities();
             caps.SetCapability("name", _configurationDriver.BaseSessionName + " " + browserId);
             caps.SetCapability("project", _configurationDriver.ProjectName);
             caps.SetCapability("build", _configurationDriver.BuildName);
-            caps.SetCapability("app", "app_url");
+            caps.SetCapability("app", "DemoApp");
             string lowerBrowserId = browserId.ToUpper();
             switch (lowerBrowserId)
             {
@@ -37,25 +37,27 @@ namespace TestApplication.UiTests.Drivers
                     {
                         caps.SetCapability(tuple.Key, tuple.Value);
                     }
-                    break;
+                    return new RemoteWebDriver(new Uri("https://" + _configurationDriver.BSUsername + ":" + _configurationDriver.BSAccessKey + "@" + _configurationDriver.SeleniumBaseUrl + "/wd/hub/"), caps);
+                   
                 case "PIXEL3":
                     foreach (var tuple in _configurationDriver.Pixel3)
                     {
                         caps.SetCapability(tuple.Key, tuple.Value);
                     }
-                    break;
+                    return new RemoteWebDriver(new Uri("https://" + _configurationDriver.BSUsername + ":" + _configurationDriver.BSAccessKey + "@" + _configurationDriver.SeleniumBaseUrl + "/wd/hub/"), caps);
+                    
                 case "GALAXYNOTE20":
                     foreach (var tuple in _configurationDriver.GalaxyNote20)
                     {
                         caps.SetCapability(tuple.Key, tuple.Value);
                     }
-                    break;
+                    return new RemoteWebDriver(new Uri("https://" + _configurationDriver.BSUsername + ":" + _configurationDriver.BSAccessKey + "@" + _configurationDriver.SeleniumBaseUrl + "/wd/hub/"), caps);
                 case string browser: throw new NotSupportedException($"{browser} is not a supported browser");
                 default: throw new NotSupportedException("not supported browser: <null>");
             }
-            return new RemoteWebDriver(new Uri("https://" + _configurationDriver.BSUsername + ":" + _configurationDriver.BSAccessKey + "@" + _configurationDriver.SeleniumBaseUrl + "/wd/hub/"), caps);
+           
         }
-
+        
         public Local GetLocal(string browserId)
         {
             string lowerBrowserId = browserId.ToUpper();

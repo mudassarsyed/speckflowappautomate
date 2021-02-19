@@ -11,7 +11,7 @@ namespace TestApplication.UiTests.Drivers
     {
         private const string SeleniumBaseUrlConfigFieldName = "seleniumBaseUrl";
         private readonly Lazy<IConfiguration> _configurationLazy;
-
+        
         public ConfigurationDriver()
         {
             _configurationLazy = new Lazy<IConfiguration>(GetConfiguration);

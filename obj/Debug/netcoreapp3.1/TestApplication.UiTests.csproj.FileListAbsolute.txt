@@ -546,6 +546,7 @@ C:\Users\dhruvil\source\repos\TestApplication.UiTests\obj\Debug\netcoreapp3.1\Te
 C:\Users\dhruvil\source\repos\TestApplication.UiTests\bin\Debug\netcoreapp3.1\TestApplication.UiTests.dll.config
 C:\Users\dhruvil\source\repos\TestApplication.UiTests\obj\Debug\netcoreapp3.1\TestApplication.UiTests.csprojAssemblyReference.cache
 C:\Users\dhruvil\source\repos\TestApplication.UiTests\bin\Debug\netcoreapp3.1\BrowserStackLocal.dll
+C:\Users\Mayank's PC\Documents\Specflow-1\TestApplication.UiTests\bin\Debug\netcoreapp3.1\SpecRun.Runtime.SpecFlowPlugin.dll
 C:\Users\Mayank's PC\Documents\Specflow-1\TestApplication.UiTests\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\BoDi.dll
 C:\Users\Mayank's PC\Documents\Specflow-1\TestApplication.UiTests\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\CommandLine.dll
 C:\Users\Mayank's PC\Documents\Specflow-1\TestApplication.UiTests\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\FSharp.Core.dll
@@ -562,7 +563,6 @@ C:\Users\Mayank's PC\Documents\Specflow-1\TestApplication.UiTests\bin\Debug\netc
 C:\Users\Mayank's PC\Documents\Specflow-1\TestApplication.UiTests\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\TechTalk.SpecRun.Framework.Executor.dll
 C:\Users\Mayank's PC\Documents\Specflow-1\TestApplication.UiTests\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\TechTalk.SpecRun.Framework.Interfaces.dll
 C:\Users\Mayank's PC\Documents\Specflow-1\TestApplication.UiTests\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\TechTalk.SpecRun.Framework.Utils.dll
-C:\Users\Mayank's PC\Documents\Specflow-1\TestApplication.UiTests\bin\Debug\netcoreapp3.1\SpecRun.Runtime.SpecFlowPlugin.dll
 C:\Users\Mayank's PC\Documents\Specflow-1\TestApplication.UiTests\bin\Debug\netcoreapp3.1\TestApplication.UiTests.dll
 C:\Users\Mayank's PC\Documents\Specflow-1\TestApplication.UiTests\bin\Debug\netcoreapp3.1\BoDi.dll
 C:\Users\Mayank's PC\Documents\Specflow-1\TestApplication.UiTests\bin\Debug\netcoreapp3.1\TechTalk.SpecRun.dll
@@ -735,6 +735,7 @@ C:\Users\Mayank's PC\Documents\Specflow-1\TestApplication.UiTests\bin\Debug\netc
 C:\Users\Mayank's PC\Documents\Specflow-1\TestApplication.UiTests\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
 C:\Users\Mayank's PC\Documents\Specflow-1\TestApplication.UiTests\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\Mayank's PC\Documents\Specflow-1\TestApplication.UiTests\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\Mayank's PC\Documents\Specflow-1\TestApplication.UiTests\bin\Debug\netcoreapp3.1\nunit.framework.dll
 C:\Users\Mayank's PC\Documents\Specflow-1\TestApplication.UiTests\bin\Debug\netcoreapp3.1\WebDriver.Support.dll
 C:\Users\Mayank's PC\Documents\Specflow-1\TestApplication.UiTests\bin\Debug\netcoreapp3.1\WebDriver.dll
 C:\Users\Mayank's PC\Documents\Specflow-1\TestApplication.UiTests\bin\Debug\netcoreapp3.1\TechTalk.SpecFlow.dll
@@ -812,7 +813,6 @@ C:\Users\Mayank's PC\Documents\Specflow-1\TestApplication.UiTests\bin\Debug\netc
 C:\Users\Mayank's PC\Documents\Specflow-1\TestApplication.UiTests\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Drawing.Common.dll
 C:\Users\Mayank's PC\Documents\Specflow-1\TestApplication.UiTests\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Drawing.Common.dll
 C:\Users\Mayank's PC\Documents\Specflow-1\TestApplication.UiTests\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\Mayank's PC\Documents\Specflow-1\TestApplication.UiTests\obj\Debug\netcoreapp3.1\TestApplication.UiTests.csprojAssemblyReference.cache
 C:\Users\Mayank's PC\Documents\Specflow-1\TestApplication.UiTests\obj\Debug\netcoreapp3.1\TestApplication.UiTests.AssemblyInfoInputs.cache
 C:\Users\Mayank's PC\Documents\Specflow-1\TestApplication.UiTests\obj\Debug\netcoreapp3.1\TestApplication.UiTests.AssemblyInfo.cs
 C:\Users\Mayank's PC\Documents\Specflow-1\TestApplication.UiTests\obj\Debug\netcoreapp3.1\TestApplication.UiTests.csproj.CoreCompileInputs.cache

@@ -24,6 +24,7 @@ namespace TestApplication.UiTests.Drivers
             _waitLazy = new Lazy<WebDriverWait>(GetWebDriverWait);
         }
 
+
         public IWebDriver Current => _currentWebDriverLazy.Value;
 
         public WebDriverWait Wait => _waitLazy.Value;
@@ -33,15 +34,16 @@ namespace TestApplication.UiTests.Drivers
             return new WebDriverWait(Current, _waitDuration);
         }
 
+        
         private IWebDriver GetWebDriver()
-        {
-            string testBrowserId = Environment.GetEnvironmentVariable("Test_Browser");
+       {
+           string testBrowserId = Environment.GetEnvironmentVariable("Test_Browser");
             if(_currentLocal == null)
             {
                 _currentLocal = GetBrowserStackLocal();
-            }
+           }
             return _browserSeleniumDriverFactory.GetForBrowser(testBrowserId);
-        }
+       }
 
         private Local GetBrowserStackLocal()
         {
