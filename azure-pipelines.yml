@@ -27,10 +27,6 @@ steps:
     browserstackLocal: true
     bsLocalOptions: --daemon start
 
-- task: BrowserStackAppUploader@0
-  inputs:
-    appPath: 'https://www.browserstack.com/app-automate/sample-apps/android/WikipediaSample.apk'
-    appCustomId: 'DemoApp'
 - task: VSBuild@1
   inputs:
     solution: '$(solution)'
