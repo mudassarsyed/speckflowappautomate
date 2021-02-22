@@ -29,7 +29,7 @@ steps:
 
 - task: BrowserStackAppUploader@0
   inputs:
-    appPath: '/Users/mudassarsyed/Desktop/demo/sample_apps/WikipediaSample.apk'
+    appPath: 'https://www.browserstack.com/app-automate/sample-apps/android/WikipediaSample.apk'
     appCustomId: 'DemoApp'
 - task: VSBuild@1
   inputs:
